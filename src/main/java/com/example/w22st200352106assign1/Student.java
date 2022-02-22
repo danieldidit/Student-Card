@@ -82,7 +82,5 @@ public class Student {
 
         Student st = new Student("Daniel", "Humphreys", 200352106);
 
-        Student st2 = new Student("Daniel6", "Humphreys7", 2003521068);
-
     }
 }
