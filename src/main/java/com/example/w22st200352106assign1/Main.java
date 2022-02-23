@@ -1,13 +1,17 @@
 package com.example.w22st200352106assign1;
-
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-
 import java.io.IOException;
 
-// Extends application means we'll be making our own application
+/**
+ * Author: Daniel Humphreys
+ * Date: 2/23/2022
+ * Assignment 1
+ */
+
+// Extends application -- means we'll be making our own application
 public class Main extends Application {
 
     @Override
@@ -23,13 +27,13 @@ public class Main extends Application {
         //  Title of the stage (Top left of window)
         stage.setTitle("Student Card");
 
-        //
+        //  Sets the scene
         stage.setScene(scene);
         stage.show();
     }
 
+    // Launches the application
     public static void main(String[] args) {
-
         launch();
     }
 }
