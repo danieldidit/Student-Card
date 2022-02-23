@@ -1,10 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
 <AnchorPane fx:id="anchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.w22st200352106assign1.StudentCardController">
    <children>
-      <ImageView fitHeight="160.0" fitWidth="200.0" layoutX="36.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="studentImage" fitHeight="255.0" fitWidth="210.0" layoutX="34.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="283.0" layoutY="94.0" text="First Name:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="283.0" layoutY="145.0" text="Last Name:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="283.0" layoutY="187.0" text="Student Number:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="firstNameLabel" layoutX="447.0" layoutY="94.0" text="Label">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="lastNameLabel" layoutX="447.0" layoutY="145.0" text="Label">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="studentNumberLabel" layoutX="447.0" layoutY="187.0" text="Label">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="139.0" layoutY="317.0" text="Favorite Activities:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="favoriteActivitiesList" layoutX="358.0" layoutY="319.0" text="Label" />
    </children>
 </AnchorPane>
