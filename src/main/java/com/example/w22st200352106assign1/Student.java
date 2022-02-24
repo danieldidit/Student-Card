@@ -117,7 +117,7 @@ public class Student {
      * then it adds it to the Arraylist.
      * @param newActivity stores a new activity in the ArrayList of activities.
      */
-    public void addActivites(String newActivity)
+    public void addActivities(String newActivity)
     {
         // Validates newActivity
         if (Objects.equals(newActivity, ""))

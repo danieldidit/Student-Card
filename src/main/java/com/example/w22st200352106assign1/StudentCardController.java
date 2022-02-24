@@ -49,11 +49,11 @@ public class StudentCardController implements Initializable {
         studentNumberLabel.setText(Integer.toString(student.getStudentNumber()));
 
         // Adds several activities to the activities ArrayList
-        student.addActivites("Exercise");
-        student.addActivites("Music Production");
-        student.addActivites("Video Games");
-        student.addActivites("Photography");
-        student.addActivites("Movies");
+        student.addActivities("Exercise");
+        student.addActivities("Music Production");
+        student.addActivities("Video Games");
+        student.addActivities("Photography");
+        student.addActivities("Movies");
 
         // Updates the view activities list
         favoriteActivitiesList.getItems().addAll(student.getActivities());
